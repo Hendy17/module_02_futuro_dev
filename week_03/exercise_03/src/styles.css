@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main content styling */
+main {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #333;
+  display: none;
+}
+
+#message.hidden {
+  display: none;
+}
+
+#message.visible {
+  display: block;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+}

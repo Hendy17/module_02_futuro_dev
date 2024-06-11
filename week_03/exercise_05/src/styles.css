@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+}
+
+#myUL li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+#myUL li:hover {
+  background: #ddd;
+}
