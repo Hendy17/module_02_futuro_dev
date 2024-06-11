@@ -1,3 +1,5 @@
+document.querySelector('button').addEventListener('click', newElement);
+
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
@@ -10,7 +12,7 @@ function newElement() {
   }
   document.getElementById("myInput").value = "";
 
-  li.onclick = function() {
+  li.addEventListener('click', function() {
     this.style.textDecoration = this.style.textDecoration === 'line-through' ? '' : 'line-through';
-  }
+  });
 }
