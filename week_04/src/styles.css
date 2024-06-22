@@ -1,0 +1,16 @@
+/* Estilos básicos */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  /* Estilos para a barra de navegação */
+}
+
+.hero {  
+  background-image: url('../assets/netflix_logo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Adicione mais estilos conforme necessário */
