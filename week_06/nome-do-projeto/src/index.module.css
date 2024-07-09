@@ -1,0 +1,64 @@
+/* index.module.css */
+
+/* Estilos globais */
+:root {
+  --cor-primaria: #007bff;
+  --cor-secundaria: #333;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Estilos para os produtos */
+.produto {
+  border: 1px solid var(--cor-secundaria);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.produto h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.produto p {
+  font-size: 0.9rem;
+  color: var(--cor-secundaria);
+}
+
+/* Estilos para os botões */
+.botao {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+.rodape {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Outros estilos específicos do seu projeto podem ser adicionados aqui */
+
+/* Exemplo de uso no HTML:
+   <div class="produto">
+     <h2>Bicicleta Elétrica</h2>
+     <p>R$ 2.500,00</p>
+     <button class="botao">Comprar</button>
+   </div>
+*/

@@ -1,0 +1,22 @@
+/* Header.module.css */
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: black;
+  color: white;
+  padding: 1rem; /* Adicione o espaçamento desejado */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para os elementos dentro do cabeçalho */
+.left {
+  font-size: 1.2rem;
+  /* Outros estilos que você desejar para a parte esquerda */
+}
+
+.right {
+  font-size: 0.9rem;
+  /* Outros estilos que você desejar para a parte direita */
+}
