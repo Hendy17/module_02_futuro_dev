@@ -14,6 +14,23 @@ function Home() {
 
   return (
     <div className={styles.home}>
+      <div className={styles.header}>
+        <h1>Escolha a sua bike</h1>
+      </div>
+      <div className={styles.bikeContainer}>
+        <div className={styles.bike}>
+          <img src="/assets/img/magic-home.jpg" alt="Bike 1" />
+          <p>Valor: R$2.500,00</p>
+        </div>
+        <div className={styles.bike}>
+          <img src="/assets/img/nebula-home.jpg" alt="Bike 2" />
+          <p>Valor: R$3.750,00</p>
+        </div>
+        <div className={styles.bike}>
+          <img src="/assets/img/nimbus-home.jpg" alt="Bike 3" />
+          <p>Valor: R$4.850,00</p>
+        </div>
+      </div>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="text"

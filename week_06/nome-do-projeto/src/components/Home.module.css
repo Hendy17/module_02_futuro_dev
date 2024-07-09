@@ -1,3 +1,6 @@
+/* Home.module.css */
+
+/* Estilos para o container principal da Home */
 .home {
   padding: 20px;
   display: flex;
@@ -6,19 +9,61 @@
   flex-direction: column;
 }
 
+/* Estilos para o cabeçalho */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o container das bicicletas */
+.bikeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 100%; /* Ajuste para garantir que o container ocupe toda a largura disponível */
+  max-width: 1200px; /* Define uma largura máxima para o container */
+  gap: 20px; /* Espaçamento entre as bicicletas */
+}
+
+/* Estilos para cada bicicleta */
+.bike {
+  flex: 1;
+  text-align: center;
+  padding: 10px; /* Adiciona espaçamento interno */
+  border: 1px solid #ddd; /* Adiciona borda ao redor de cada bicicleta */
+  border-radius: 8px; /* Adiciona cantos arredondados */
+  background-color: #f9f9f9; /* Adiciona cor de fundo leve */
+  transition: transform 0.2s; /* Adiciona animação para hover */
+}
+
+.bike:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.bike img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* Adiciona cantos arredondados às imagens */
+}
+
+.bike p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Estilos para o formulário */
 .form {
   display: flex;
   flex-direction: column;
   width: 300px;
+  margin-top: 20px; /* Adiciona espaçamento acima do formulário */
 }
 
-.input {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
+.input,
 .textarea {
   margin-bottom: 10px;
   padding: 8px;
@@ -26,6 +71,11 @@
   border-radius: 4px;
 }
 
+.textarea {
+  resize: vertical;
+}
+
+/* Estilos para o botão do formulário */
 .button {
   padding: 10px;
   background-color: #4CAF50;
@@ -33,6 +83,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s; /* Adiciona animação para hover */
 }
 
 .button:hover {
