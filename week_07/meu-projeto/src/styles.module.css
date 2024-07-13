@@ -1,0 +1,41 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px; /* Adicionando raio aos inputs */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 30px; /* Adicionando raio aos botões */
+  background-color: blue; /* Cor azul para os botões */
+  color: white; /* Cor do texto dos botões */
+  border: none; /* Removendo borda dos botões */
+  cursor: pointer; /* Cursor de ponteiro para os botões */
+}
+
+button:hover {
+  background-color: darkblue; /* Cor mais escura no hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
