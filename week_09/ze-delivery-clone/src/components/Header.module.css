@@ -1,0 +1,35 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff0000; /* Vermelho */
+  padding: 1rem;
+  color: #ffffff; /* Branco */
+}
+
+/* Estilo para o logotipo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilo para os links de navegação */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Estilo para o botão de login */
+.login-button button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

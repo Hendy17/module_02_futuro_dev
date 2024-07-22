@@ -1,0 +1,24 @@
+.categoryCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+}
+
+.categoryCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.categoryCard p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.categoryCard .price {
+  font-weight: bold;
+  color: #333;
+}
